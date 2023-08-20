@@ -194,5 +194,73 @@ footer #auxilary-menu li a:hover{
 footer .copyright{
     font-size: 12px;
     float: right;
-    color: white;
+    color: #878787;
+}
+
+@media (max-width: 769px) {
+    
+    #project-desctiption {
+        margin-top: 8em;
+    }
+    header h1{
+        width: 100%;
+    }
+
+    #project-desctiption {
+        background-size: 100% auto;
+        background-position: top;
+        padding-top: 39vw;
+    }
+    .wb-class{
+        width:96%;
+    }
+    .card{
+        height: 240px;
+    }
+
+    .card.deep-earth-card{
+        background:url("../../assets/images/mobile/image-deep-earth.jpg");
+    }
+    .card.night-arcade-card{
+        background:url("../../assets/images/mobile/image-night-arcade.jpg");
+    }
+    .card.soccer-team-card{
+        background:url("../../assets/images/mobile/image-soccer-team.jpg");
+    }
+    .card.grid-card{
+        background:url("../../assets/images/mobile/image-grid.jpg");
+    
+    }
+    .card.from-above-card{
+        background:url("../../assets/images/mobile/image-from-above.jpg");
+    }
+    .card.borealis-card{
+        background:url("../../assets/images/mobile/image-pocket-borealis.jpg");
+    }
+    .card.fisheye-card{
+        background:url("../../assets/images/mobile/image-fisheye.jpg");
+    
+    }
+    .card.curiosity-card{
+        background:url("../../assets/images/mobile/image-curiosity.jpg");
+    }
+    footer{
+        text-align: center;
+    }
+
+    footer ul#social-media-part, footer .copyright{
+        float: none;
+    }
+
+    footer #auxilary-menu li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    #showcase button{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
 }
